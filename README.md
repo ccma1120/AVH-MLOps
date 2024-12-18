@@ -1,7 +1,7 @@
 # Foundation Components for MLOps Systems
 
 Arm provides a set of foundation tools and software components to enable MLOps systems and the overall development flow for machine learning applications. 
-This repository contains:
+This repository contains: 
 
 - Setup of a Docker container with foundation tools for MLOps systems.
 - GitHub Actions that demonstrate typical MLOps workflows such as:
