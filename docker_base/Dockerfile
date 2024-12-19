@@ -6,6 +6,7 @@ RUN useradd -ms /bin/bash arm_mlops_docker
 WORKDIR /home/arm_mlops_docker
 ARG DEBIAN_FRONTEND=noninteractive
 
+RUN apt-get update && apt-get install -y bzip2
 ADD armclang_install.sh /armclang_install.sh
 RUN chmod +x /armclang_install.sh && /armclang_install.sh
 ADD vela_install.sh /vela_install.sh
