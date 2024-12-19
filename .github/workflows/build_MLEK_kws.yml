@@ -21,7 +21,7 @@ jobs:
       credentials:
         # Set the Docker image credentials using the actor and a GitHub token
         username: ${{ github.actor }}
-        password: ${{ secrets.ARM_UBL_LICENSE_IDENTIFIER }}
+        password: ${{ secrets.GITHUB_TOKEN }}
         #password: "ccma1234"
         
     steps:
