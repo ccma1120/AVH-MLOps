@@ -21,8 +21,8 @@ jobs:
       credentials:
         # Set the Docker image credentials using the actor and a GitHub token
         username: ${{ github.actor }}
-        #password: ${{ secrets.GITHUB_TOKEN }}
-        password: "ccma1234"
+        password: ${{ secrets.GITHUB_TOKEN }}
+        #password: "ccma1234"
         
     steps:
       - name: Checkout repository
